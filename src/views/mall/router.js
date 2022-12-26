@@ -1,4 +1,7 @@
 const mallRouter = [{
+	path: '/',
+	redirect: '/mall/home',
+},{
 	path: '/mall/home',
 	name: 'MallHome',
 	component: () => import('./home/home.vue')
