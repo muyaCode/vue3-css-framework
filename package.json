@@ -1,20 +1,28 @@
 {
   "name": "vue3-css-framework",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "axios": "^1.2.1",
+    "lib-flexible": "^0.3.2",
+    "mockjs": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "vant": "^4.0.5",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "typescript": "^4.9.3",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "sass": "^1.57.1",
     "vite": "^4.0.0",
-    "vue-tsc": "^1.0.11"
+    "vuex-persistedstate": "^4.1.0"
   }
 }
